@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dummyreact/static/css/main.073c9b0a.css",
+    "main.js": "/dummyreact/static/js/main.b8f6815a.js",
+    "index.html": "/dummyreact/index.html",
+    "main.073c9b0a.css.map": "/dummyreact/static/css/main.073c9b0a.css.map",
+    "main.b8f6815a.js.map": "/dummyreact/static/js/main.b8f6815a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b8f6815a.js"
+  ]
+}
