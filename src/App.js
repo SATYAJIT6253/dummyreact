@@ -1,12 +1,15 @@
-
+import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import Navbar from './components/navbar';
+import Homescreen from './screens/Homescreen';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1> Namaste
-        </h1>
-    </div>
+     <div className="Nav">
+       <Navbar/>
+       <Homescreen/>
+     </div>
   );
 }
 

@@ -1,3 +1,7 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&family=Montserrat:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&family=Montserrat:wght@600&family=Nunito+Sans:opsz,wght@6..12,800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,1000&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,88 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* font-family: 'Anek Tamil', sans-serif; */
+  font-family: 'Montserrat', sans-serif !important; 
+  background-color: #C8E9E9 !important;
+  /* background-color: whitesmoke !important; */
+  
+  overflow-x: hidden;
+  overflow-y: auto;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-link{
+  color: rgb(39, 37, 37)
+}
+
+.nav-menu{
+  display: flex;
+}
+
+ 
+
+.navbar-brand{
+  color: rgb(249, 28, 28) !important;
+  font-size: 140% !important;
+  display: flex;
+  
+  background-image:  linear-gradient(to right, white, whitesmoke) !important;
+   
+  padding: 15px;
+  font-family: 'Nunito Sans', sans-serif ;
+  padding-right: 2%;
+
+  /* background-color: ghostwhite; */
+   /* This is the inner background color */
+
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 100px;
+    
+  align-items: center;
+
+  height: 120%;
+ 
+}
+
+.navbar{
+  background-image:  linear-gradient(to right, rgb(255, 255, 62), rgb(255, 72, 52)) !important;
+  width: 100%;
+  margin: 0px 0px;
+}
+
+ 
+h1{
+  font-size: 20px !important;
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.pizza-img{
+  /* margin-left: 20%; */
+  width: 120%;
+  max-width: 100%;
+  /* margin-inline-start: auto ; */
+} 
+
+.img-box{
+/* margin-left: 20%; */
+margin-inline: 10%;
+max-width: 100%;
+}
+
+.btn{
+  background-color: red !important;
+  color: white !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
 }
