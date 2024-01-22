@@ -30,11 +30,16 @@ code {
 
 .nav-menu{
   display: flex;
+  /* opacity: 0.8; */
+  background-image:  linear-gradient(to right, rgb(255, 255, 62), rgb(255, 72, 52)) !important;
+
+  position: relative;
+  z-index: -1;
 }
 
  
 
-.navbar-brand{
+.navbars-brand{
   color: rgb(249, 28, 28) !important;
   font-size: 140% !important;
   display: flex;
@@ -50,17 +55,41 @@ code {
 
   border-top-right-radius: 300px;
   border-bottom-right-radius: 100px;
+  /* position: relative; */
     
   align-items: center;
-
   height: 120%;
+text-decoration: none;
+/* z-index: 1; */
+/* opacity: 1; */
  
 }
 
 .navbar{
-  background-image:  linear-gradient(to right, rgb(255, 255, 62), rgb(255, 72, 52)) !important;
+  /* background-image:  linear-gradient(to right, rgb(255, 255, 62), rgb(255, 72, 52)) !important; */
+  /* opacity: 0.8; */
+ 
   width: 100%;
   margin: 0px 0px;
+   
+}
+
+.navbar a{
+  z-index: 1;
+}
+
+
+
+
+@media(max-width: 100%) {
+  .container{
+    display: flex;
+    content: " ";
+    margin: 0px 0px;
+    background: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center center/cover;
+    
+    height: 80vh;
+  }
 }
 
  

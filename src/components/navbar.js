@@ -8,9 +8,9 @@ export default function Navbar() {
 
       <div className="nav-menu">  
 
-      <nav className="navbar navbar-expand-lg shadow  bg-white rounded">
+      <nav className="navbar navbar-expand-lg shadow ">
 
-      <a className="navbar-brand" href="#">
+      <a className="navbars-brand" href="#">
           Thelewala
         </a>
 
@@ -51,6 +51,9 @@ export default function Navbar() {
         </div>
       </nav>
     </div>
-    </div>
+    
+
+ 
+</div>
   );
 }
