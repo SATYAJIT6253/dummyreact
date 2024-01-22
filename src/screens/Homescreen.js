@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../data'
 import Food from '../components/Food'
 
+
 export default function Homescreen() {
   return (
     <div>

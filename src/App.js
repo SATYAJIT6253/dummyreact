@@ -1,5 +1,6 @@
 import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import Footer from './components/Footer';
 import Navbar from './components/navbar';
 import Homescreen from './screens/Homescreen';
 
@@ -9,6 +10,7 @@ function App() {
      <div className="Nav">
        <Navbar/>
        <Homescreen/>
+       <Footer/>
      </div>
   );
 }
